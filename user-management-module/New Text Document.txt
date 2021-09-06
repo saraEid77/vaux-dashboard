@@ -1,0 +1,272 @@
+ <div class="profile_slider1">
+            <div class="slider-item">
+              <div class="row d-flex">
+                <div class="col-12">New Products</div>
+                <div class="col-md-8 col-12 d-flex">
+                  <!-- <div class="col-md-2"> -->
+                  <div class="profile_img">
+                    <img src="../images/avatar/preview-10.jpg" alt="">
+                  </div>
+                  <!-- </div> -->
+                  <div class="profile_title">
+                    <h2>
+                      Nike Tanjun</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 20</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 ">
+                  <div class="profile_data d-flex">
+                    <div class="data1 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data2 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data3 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-between">
+                  <div>
+                    <div>21 Novemver 2021</div>
+                    <div>date Of Release</div>
+                  </div>
+                  <div>
+                    <button class="btn btn-default">preview</button>
+                    <button class="btn btn-default">Details</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="row d-flex">
+                <div class="col-12">New Products</div>
+                <div class="col-md-8 col-12 d-flex">
+                  <!-- <div class="col-md-2"> -->
+                  <div class="profile_img">
+                    <img src="../images/avatar/preview-10.jpg" alt="">
+                  </div>
+                  <!-- </div> -->
+                  <div class="profile_title">
+                    <h2>
+                      Nike Tanjun</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 20</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 ">
+                  <div class="profile_data d-flex">
+                    <div class="data1 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data2 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data3 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-between">
+                  <div>
+                    <div>21 Novemver 2021</div>
+                    <div>date Of Release</div>
+                  </div>
+                  <div>
+                    <button class="btn btn-default">preview</button>
+                    <button class="btn btn-default">Details</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="slider-item">
+              <div class="row d-flex">
+                <div class="col-12">New Products</div>
+                <div class="col-md-8 col-12 d-flex">
+                  <!-- <div class="col-md-2"> -->
+                  <div class="profile_img">
+                    <img src="../images/avatar/preview-10.jpg" alt="">
+                  </div>
+                  <!-- </div> -->
+                  <div class="profile_title">
+                    <h2>
+                      Nike Tanjun</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 20</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 ">
+                  <div class="profile_data d-flex">
+                    <div class="data1 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data2 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data3 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-between">
+                  <div class="d-flex">
+                    <button>21 Novemver 2021</button>
+                    <div>date Of Release</div>
+                  </div>
+                  <div>
+                    <button class="btn btn-default">preview</button>
+                    <button class="btn btn-default">Details</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="profile_slider2 my-5">
+            <div class="slider-item">
+              <div class="row d-flex">
+                <div class="col-12">New Authors </div>
+                <div class="col-md-6 col-12 d-flex">
+                  <!-- <div class="col-md-2"> -->
+                  <div class="profile_img">
+                    <img src="../images/avatar/preview-10.jpg" alt="">
+                  </div>
+                  <!-- </div> -->
+                  <div class="profile_title">
+                    <h2> Russell Crowe</h2>
+                    <p>DevOps Engineer</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12 ">
+                  <div class="profile_data">
+                    <div class="data1 mx-4 d-flex">
+                      <i class="fas fa-angle-down"></i>
+                      <span>
+                        seanconnery@left4code.com</span>
+                    </div>
+                    <div class="data2 mx-4 d-flex">
+                      <i class="fas fa-angle-down"></i>
+                      <span>Angelina Jolie</span>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-between">
+                  <div>
+                    <div>21 Novemver 2021</div>
+                    <div>date Of Release</div>
+                  </div>
+                  <div>
+                    <button class="btn btn-default">preview</button>
+                    <button class="btn btn-default">Details</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="row d-flex">
+                <div class="col-12">New Products</div>
+                <div class="col-md-8 col-12 d-flex">
+                  <!-- <div class="col-md-2"> -->
+                  <div class="profile_img">
+                    <img src="../images/avatar/preview-10.jpg" alt="">
+                  </div>
+                  <!-- </div> -->
+                  <div class="profile_title">
+                    <h2>
+                      Nike Tanjun</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 20</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 ">
+                  <div class="profile_data d-flex">
+                    <div class="data1 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data2 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data3 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-between">
+                  <div>
+                    <div>21 Novemver 2021</div>
+                    <div>date Of Release</div>
+                  </div>
+                  <div>
+                    <button class="btn btn-default">preview</button>
+                    <button class="btn btn-default">Details</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="slider-item">
+              <div class="row d-flex">
+                <div class="col-12">New Products</div>
+                <div class="col-md-8 col-12 d-flex">
+                  <!-- <div class="col-md-2"> -->
+                  <div class="profile_img">
+                    <img src="../images/avatar/preview-10.jpg" alt="">
+                  </div>
+                  <!-- </div> -->
+                  <div class="profile_title">
+                    <h2>
+                      Nike Tanjun</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 20</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 ">
+                  <div class="profile_data d-flex">
+                    <div class="data1 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data2 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                    <div class="data3 mx-4">
+                      <h3>101</h3>
+                      <span>orders</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-between">
+                  <div class="d-flex">
+                    <button>21 Novemver 2021</button>
+                    <div>date Of Release</div>
+                  </div>
+                  <div>
+                    <button class="btn btn-default">preview</button>
+                    <button class="btn btn-default">Details</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- fav Icon -->
+  <link rel="shortcut icon" href="images/favicon.png" title="Favicon" sizes="16x16" />
+  <!--With LTR -->
+  <link rel="stylesheet" href="css/lib/bootstrap-ltr.min.css" />
+  <!--/With LTR -->
+  <!--With RTL -->
+  <!-- <link rel="stylesheet" href="css/lib/bootstrap-rtl.min.css" /> -->
+  <!--/With RTL -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/lib/animate.css" />
+  <link rel="stylesheet" href="css/lib/all.min.css" />
+  <!-- select 2 library -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <!-- ------- data table style -------------- -->
+  <link rel="stylesheet" href="css/lib/datatables.bootstrap4.min.css" />
+  <!-- ------- datepicker style -------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/lib/daterangepicker.css" />
+  <!-- ------- custom style  -------------- -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- ------- dark mode style  -------------- -->
+  <link rel="stylesheet" href="css/style_dark.css" />
+  <!-- ------- Arabic style  -------------- -->
+  <!-- <link rel="stylesheet" href="css/style_ar.css"> -->
+  <title>dashboard | home</title>
+</head>
+<style></style>
+
+<body style=" background: linear-gradient(-45deg, #fff, #fff);">
+
+
+  <div class="currency_page business_types pb-5">
+    <div class="container">
+      <div class="row ">
+        <!-- <div class="col-12"> -->
+        <img class=" currency_logo" src="images/favicon.png" alt="">
+        <!-- </div> -->
+      </div>
+      <div class="row ">
+
+        <div class="col-12">
+          <div class=" panel radio-toolbar text-center">
+            <div class="business_type_title my-3">
+              <h4>Let us get to know you</h4>
+              <h6>Select the use case that best fits your business</h6>
+            </div>
+            <div class="row justify-content-center text-left">
+              <div class="col-md-8 ">
+                <div id="bt1" class="business_type">
+                  <label class="customcheck"><i class="fas fa-shopping-basket font_small font_icon"></i> Retail
+                    <!-- <input id="cb1" class="checkbox2" type="checkbox" data-ptag="sb1"> -->
+                    <input name="chk1" class="checkbox2" type="checkbox" id="chk1" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb1" class="autoUpdate" style="display: none">
+                      You track inventory, sales, and purchases at a brick-and-mortar retail store.
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt2" class="business_type">
+                  <label class="customcheck"><i class="fas fa-laptop font_small font_icon"></i>ecommerce
+                    <input name="chk2" class="checkbox2" type="checkbox" id="chk2" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb2" class="autoUpdate" style="display: none">
+                      You primarily sell online through platforms like Shopify, Amazon, WooCommerce, or Squarespace.
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt3" class="business_type">
+                  <label class="customcheck"><i class="fas fa-syringe font_small font_icon"></i>Pharmacy
+                    <input name="chk3" class="checkbox2" type="checkbox" id="chk3" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb3" class="autoUpdate" style="display: none">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt4" class="business_type">
+                  <label class="customcheck"><i class="fas fa-shopping-cart font_small font_icon"></i>Supermarket
+                    <input name="chk4" class="checkbox2" type="checkbox" id="chk4" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb4" class="autoUpdate" style="display: none">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt5" class="business_type">
+                  <label class="customcheck"><i class="fas fa-coffee font_small font_icon"></i>Restaurant or coffee shop
+                    <input name="chk5" class="checkbox2" type="checkbox" id="chk5" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb5" class="autoUpdate" style="display: none">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt6" class="business_type">
+                  <label class="customcheck"> <i class="fas fa-truck font_small font_icon"></i> Wholesale or
+                    distribution
+                    <input name="chk6" class="checkbox2" type="checkbox" id="chk6" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb6" class="autoUpdate" style="display: none">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt7" class="business_type">
+                  <label class="customcheck"> <img class="font_small font_icon" src="images/icons/businessTypes/washing-machine.svg" />Laundry or car wash
+                    <input name="chk7" class="checkbox2" type="checkbox" id="chk7" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb7" class="autoUpdate" style="display: none">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt8" class="business_type">
+                  <label class="customcheck"><i class="fas fa-vial font_small font_icon"></i> Laboratory or Radiology
+                    lab
+                    <input name="chk8" class="checkbox2" type="checkbox" id="chk8" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb8" class="autoUpdate" style="display: none">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt9" class="business_type">
+                  <label class="customcheck"><i class="fas fa-hotel font_small font_icon"></i>Hotel or Motel
+                    <input name="chk9" class="checkbox2" type="checkbox" id="chk9" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb9" class="autoUpdate" style="display: none">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt10" class="business_type">
+                  <label class="customcheck"><img class="font_small font_icon" src="images/icons/businessTypes/baber-scissors.svg" />Barbershop or service shop
+                    <input name="chk10" class="checkbox2" type="checkbox" id="chk10" value="">
+                    <span class="checkmark"></span>
+                    <p id="sb10" class="autoUpdate" style="display: none">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    </p>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <div id="bt11" class="business_type other">
+                  <label class="customcheck"><i class="fas fa-question-circle font_small font_icon"></i>
+                   
+                    Other
+                 
+                    <input name="chk11" class="checkbox2" type="checkbox" id="chk11" value="">
+                    <span class="checkmark"></span>
+
+                    <p id="sb11" class="autoUpdate" style="display: none">
+                      What would you call your use case? <br>
+                      <input type="text" name="firstname" class="mt-2" />
+                    </p>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <h6 class="my-3">Which of these best describes you (Required)</h6>
+              <div class="row  justify-content-center">
+
+                <div class="col-md-5 ">
+                  <input type="radio" id="radiobtn1" name="radioSelect" value="apple" checked>
+                  <label for="radiobtn1"><i class="fas fa-user"></i><br> Business <br>owner
+                  </label>
+                </div>
+                <div class="col-md-5 ">
+                  <input type="radio" id="radiobtn2" name="radioSelect" value="apple">
+                  <label for="radiobtn2"><i class="fas fa-warehouse"></i><br> Inventory or <br>operations
+                  </label>
+                </div>
+                <div class="col-md-5 ">
+                  <input type="radio" id="radiobtn3" name="radioSelect" value="apple">
+                  <label for="radiobtn3"><i class="fas fa-tools"></i><br> Production or<br> manufacturing
+                  </label>
+                </div>
+                <div class="col-md-5 ">
+                  <input type="radio" id="radiobtn4" name="radioSelect" value="apple">
+                  <label for="radiobtn4"><i class="fas fa-truck-moving"></i><br> Purchasing or<br> procurement
+                  </label>
+                </div>
+                <div class="col-md-5 ">
+                  <input type="radio" id="radiobtn5" name="radioSelect" value="apple">
+                  <label for="radiobtn5"><i class="fas fa-money-bill-wave"></i><br> Finance or<br> office administration
+                  </label>
+                </div>
+                <div class="col-md-5 ">
+                  <input type="radio" id="radiobtn6" name="radioSelect" value="apple">
+                  <label for="radiobtn6"><i class="fas fa-shopping-basket"></i><br> Sales or<br> marketing
+                  </label>
+                </div>
+                <div class="col-md-5 ">
+                  <input type="radio" id="radiobtn7" name="radioSelect" value="apple">
+                  <label for="radiobtn7"><i class="fas fa-users"></i><br> Consultant
+                    <p class="font_small">just looking to learn more about inFlow</p>
+                  </label>
+                </div>
+                <div class="col-md-5 ">
+                  <input type="radio" id="radiobtn8" name="radioSelect" value="apple">
+                  <label for="radiobtn8"><i class="fas fa-users-cog"></i><br> Consultant
+                    <p class="font_small">just looking to learn more about inFlow</p>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row justify-content-center">
+              <!-- <div class="col-md-5"> -->
+              <a href="#" class="btn btn-blue text-center my-3">
+                Continue
+              </a>
+              <!-- </div> -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- -------------- request ----------------- -->
+
+  <script src="js/lib/jquery-3.0.0.min.js"></script>
+  <script src="js/lib/jquery-migrate-3.0.0.min.js"></script>
+  <script src="js/lib/popper.min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+
+  <script src="js/lib/wow.min.js"></script>
+  <script src="js/lib/jquery.counterup.js"></script>
+  <script src="js/lib/jquery.waypoints.min.js"></script>
+  <!-- select 2 library -->
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <!-- ------- apex chart -------------- -->
+  <!-- <script src=""></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous"></script>
+  <!-- ------- chart js -------------- -->
+  <script src="js/lib/chart.js"></script>
+  <!-- ------- data table  -------------- -->
+  <script src="js/lib/jquery.datatables.min.js"></script>
+  <script src="js/lib/datatables.bootstrap4.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js"></script>
+  <!-- ----------- datepicker ----------- -->
+  <script type="text/javascript" src="js/lib/moment.min.js"></script>
+  <script type="text/javascript" src="js/lib/daterangepicker.min.js"></script>
+  <!-- ------- charts js   -------------- -->
+  <script src="js/lib/charts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="js/lib/chart-apex.js"></script>
+  <!-- ------- charts js   -------------- -->
+  <!-- <script src="js/charts_dark.js"></script> -->
+  <!-- ------- custom js   -------------- -->
+  <script src="js/main.js"></script>
+  <script>
+    $(function () {
+      $('input[name="daterange"]').daterangepicker(
+        {
+          opens: "left",
+        },
+        function (start, end, label) {
+          console.log(
+            "A new date selection was made: " +
+            start.format("YYYY-MM-DD") +
+            " to " +
+            end.format("YYYY-MM-DD")
+          );
+        }
+      );
+    });
+  </script>
+
+  <script>
+    $(function () {
+      $('.mySelect').select2({
+      });
+    });
+  </script>
+
+  <!-- ----------- counter timer ------------ -->
+  <!-- <script type="text/javascript">
+      var minutesLabel = document.getElementById("minutes");
+      var secondsLabel = document.getElementById("seconds");
+      var totalSeconds = 0;
+      setInterval(setTime, 1000);
+      function setTime() {
+        ++totalSeconds;
+        secondsLabel.innerHTML = pad(totalSeconds % 60);
+        minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+      }
+      function pad(val) {
+        var valString = val + "";
+        if (valString.length < 2) {
+          return "0" + valString;
+        } else {
+          return valString;
+        }
+      }
+    </script> -->
+  <script>
+    $(".per_btn").on("click", function (e) {
+      e.stopPropagation();
+      $(this).siblings(".per_body").slideToggle();
+    });
+  </script>
+</body>
+
+</html>
